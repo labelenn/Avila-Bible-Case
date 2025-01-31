@@ -6,7 +6,7 @@ Instructions to execute the script file:
 2. Launch Jupyter Notebook and open Assignment2.ipynb.
 3. On the top menu, click Kernel, then click Restart Kernel and Run All Cells...
 
-<h1>ABSTRACT / EXECUTIVE SUMMARY</h1>
+ABSTRACT / EXECUTIVE SUMMARY
 The Avila Bible case consists of a dataset that has been created from 800 images of the
 Abila Bible. The Avila Bible is a giant Latin copy of the whole Bible from the 12th century
 (Stefano, Fontanella, Maniaci, Freca, 2018). Manuscript studies showcase different methods
@@ -27,7 +27,7 @@ Tree method. Finally, the evaluation of these models is done through K-Fold Cros
 confirm and compare the effectiveness of the two models in predicting/identifying the scribes
 given a set of trained typological features/data against the test set.
 
-<h1>INTRODUCTION</h1>
+INTRODUCTION
 The core step of the data science process is data modelling. This allows the
 communication or representation of connections between data points and structure (IBM,
 2024). Through this, a system can be created to predict an outcome by providing a set of
@@ -38,6 +38,7 @@ medieval scripting of the Avila Bible. The two Classification models, built thro
 K-Nearest Neighbour method and the Decision Tree method, I was able to reach the goal of the
 project, which is to develop a scribe recognition system that, to an extent, accurately predicts
 the scribe given a set of test data.
+
 Before data modelling, I first performed data retrieval and preprocessing which did not
 require much more cleaning as the dataset, as per Stefano, Fontanella, Maniaci, and Freca, in
 2018, the authors of the report “Reliable Writer Identification in medieval manuscripts through
@@ -46,7 +47,7 @@ Z-normalization method. Given that the normalisation of data is for the removal 
 unorganised nature and redundancy to allow a standardised dataset, I still handled the outliers
 and checked for missing values to serve as a second layer of data preparation to reach a closer
 chance of predictive accuracy for the model.
-3
+
 Following preprocessing, I explored the data to further provide an identication of
 possible inaccuracies or errors and hence, handle these again accordingly. However, the data
 exploration is mainly to observe how the features in the dataset are depicted and the
@@ -58,10 +59,12 @@ the exploitation of each column of the written area, and set 3 provides the char
 the scribe in terms of text distribution per row. That being said, the exploration of each of the
 features are separated into the same three categories as well to individually address the
 observations that provide signification information accordingly.
+
 The specific categorization of the features:
 Set 1 - Intercolumnar distance, Upper margin, Lower Margin
 Set 2 - Exploitation, Row number, Modular ratio, Interlinear spacing
 Set 3 - Weight, Peak number, Modular ratio/Interlinear spacing
+
 Finally, as mentioned already, data modelling is the last task of this assignment which I
 performed through the methods K-Nearest Neighbour and Decision Tree, both of which are a
 Classification method of modelling. The data set has actually already been separated into two
