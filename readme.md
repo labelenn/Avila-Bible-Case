@@ -6,7 +6,7 @@ Instructions to execute the script file:
 2. Launch Jupyter Notebook and open Assignment2.ipynb.
 3. On the top menu, click Kernel, then click Restart Kernel and Run All Cells...
 
-ABSTRACT / EXECUTIVE SUMMARY
+<h1>ABSTRACT / EXECUTIVE SUMMARY</h1>h1>
 The Avila Bible case consists of a dataset that has been created from 800 images of the
 Abila Bible. The Avila Bible is a giant Latin copy of the whole Bible from the 12th century
 (Stefano, Fontanella, Maniaci, Freca, 2018). Manuscript studies showcase different methods
@@ -27,7 +27,7 @@ Tree method. Finally, the evaluation of these models is done through K-Fold Cros
 confirm and compare the effectiveness of the two models in predicting/identifying the scribes
 given a set of trained typological features/data against the test set.
 
-INTRODUCTION
+<h1>INTRODUCTION</h1>
 The core step of the data science process is data modelling. This allows the
 communication or representation of connections between data points and structure (IBM,
 2024). Through this, a system can be created to predict an outcome by providing a set of
