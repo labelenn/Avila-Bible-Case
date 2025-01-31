@@ -1,4 +1,4 @@
-Name: Lance Belen
+<h1>Author: Lance Belen</h1>
 
 Instructions to execute the script file:
 
@@ -6,7 +6,7 @@ Instructions to execute the script file:
 2. Launch Jupyter Notebook and open Assignment2.ipynb.
 3. On the top menu, click Kernel, then click Restart Kernel and Run All Cells...
 
-<h1>ABSTRACT / EXECUTIVE SUMMARY</h1>h1>
+<h1>ABSTRACT / EXECUTIVE SUMMARY</h1>
 The Avila Bible case consists of a dataset that has been created from 800 images of the
 Abila Bible. The Avila Bible is a giant Latin copy of the whole Bible from the 12th century
 (Stefano, Fontanella, Maniaci, Freca, 2018). Manuscript studies showcase different methods
